@@ -53,7 +53,7 @@ else{
           <div class="field input">
             <label for="email">Email</label>
             <input
-              type="text"
+            type="email"
               name="email"
               id="email"
               autocomplete="off"
