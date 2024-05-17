@@ -17,14 +17,14 @@
   </head>
   <body>
     <div class="nav">
-      <p><a href="home.php">Logo</a></p>
+      <p><a href="./myWEBSITE/index.html">Visit Our Store</a></p>
 
       <div class="right-links">
 
         <?php 
             
             $id = $_SESSION['id'];
-            $query = mysqli_query($con,"SELECT*FROM users WHERE Id=$id");
+            $query = mysqli_query($con,"SELECT * FROM users WHERE Id=$id");
 
             while($result = mysqli_fetch_assoc($query)){
                 $res_Uname = $result['Username'];

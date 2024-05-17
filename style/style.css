@@ -1,37 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
-  font-family: "Poppins", sans-serif;
-
-  /* Static background image */
-  background: url("/img.jpg") no-repeat center center fixed;
-  background-size: cover;
-
-  /* Uncomment to use gradient animation background */
-  /* background: linear-gradient(270deg, #e4e9f7, #fdfdfd, #e4e9f7, #fdfdfd);
-  background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite; */
+  background: #e4e9f7;
 }
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .container {
   display: flex;
   align-items: center;
